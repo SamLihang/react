@@ -1,0 +1,42 @@
+{
+  "name": "baocailang2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "configureJPush": "node node_modules/jpush-react-native/JPushConfiguration.js",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jcore-react-native": "^1.1.3",
+    "jpush-react-native": "^1.6.6",
+    "native-echarts": "^0.3.0",
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.3",
+    "react-native-bluetooth-serial": "^1.0.0-rc1",
+    "react-native-image-crop-picker": "^0.14.1",
+    "react-native-keyboard-aware-scroll-view": "^0.2.9",
+    "react-native-parabolic": "^1.1.1",
+    "react-native-range-calendar": "0.0.1",
+    "react-native-scrollable-tab-view": "^0.6.7",
+    "react-native-swiper": "^1.5.4",
+    "react-native-yunpeng-alipay": "^1.1.4",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.5",
+    "react-timer-mixin": "^0.13.3",
+    "redux": "^3.7.1",
+    "redux-persist": "^4.8.2",
+    "redux-thunk": "^2.2.0",
+    "stream": "0.0.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.0.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

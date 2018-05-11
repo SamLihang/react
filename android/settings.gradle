@@ -1,0 +1,19 @@
+rootProject.name = 'baocailang2'
+include ':react-native-image-crop-picker'
+project(':react-native-image-crop-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-crop-picker/android')
+
+include ':app'
+include ':jpush-react-native'
+project(':jpush-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/jpush-react-native/android')
+
+include ':jcore-react-native'
+project(':jcore-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/jcore-react-native/android')
+
+include ':react-native-bluetooth-serial'
+project(':react-native-bluetooth-serial').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-bluetooth-serial/android')
+
+include ':react-native-yunpeng-alipay'
+project(':react-native-yunpeng-alipay').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-yunpeng-alipay/android')
+
+include ':react-native-bluetooth-serial'
+project(':react-native-bluetooth-serial').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-bluetooth-serial/android')
